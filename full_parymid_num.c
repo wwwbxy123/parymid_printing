@@ -22,11 +22,13 @@ int main(){
                 j++;
                 k++;
             }
+            k-=2;
             while(j <= row + i){
-                printf("%d ",k);
+                printf("%d ",k + i);
                 j++;
                 k--;
             }
+            
         }
         printf("\n");
     }
